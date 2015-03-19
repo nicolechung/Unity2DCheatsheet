@@ -41,7 +41,7 @@ Should be used when applying forces or other physics related functions.
 
 ### Conventional
 
-```
+```C#
 Input.GetAxis("Horizontal")
 Input.GetAxis("Vertical")
 ```
@@ -53,7 +53,7 @@ Mobile uses an Input.Touch data structure.
 Useful properties include ```position``` and ```deltaPosition``` (change in position since the last frame).
 
 
-```
+```C#
 var particle : GameObject;
 function Update () {
     for (var touch : Touch in Input.touches) {
