@@ -1,5 +1,5 @@
 # Unity2DCheatsheet
-A cheatsheet for Unity's 2D features.
+A cheatsheet for Unity's 2D features. It's based on [this cheat sheet](http://cdn1.raywenderlich.com/wp-content/uploads/2014/11/UnityCheatsheet-0_1.pdf) but I've modified it for 2D.
 
 ## Physics 
 
@@ -78,4 +78,7 @@ Mathf.Clamp
 
 Mathf.PingPong
 
-##  Input
+##  Vector Variables
+
+## Timing Variables
+
