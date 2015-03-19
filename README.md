@@ -2,12 +2,23 @@
 A cheatsheet for Unity's 2D features.
 
 ## Physics 
-To make a GameObject under the control of the physics engine, add a rigid body component.
 
+### Rigidbodies
+To make a GameObject under the control of the physics engine, add a _Rigidbody_ component.
+
+With _Rigidbodies_ do not attempt to move them by Transform properties (rotation, scale, position). Instead apply forces.
+
+### Colliders
+BoxCollider2D
+CircleCollider2D
+PolygonCollider2D
+
+### Floors, walls, and other motionless elements
+Add a collider to an object, but don't add a Rigidbody component.
 
 
 ## Controlling the camera
-For 2D, don’t mess with the Scene Gizmo.
+For 2D, don’t mess with the Scene Gizmo. In Unity 5 the gizmo isn't even available when viewing in "2D" mode:
 
 ![Scene Gizmo](images/scene-gizmo.png)
 
