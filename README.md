@@ -9,9 +9,12 @@ To make a GameObject under the control of the physics engine, add a _Rigidbody_ 
 With _Rigidbodies_ do not attempt to move them by Transform properties (rotation, scale, position). Instead apply forces.
 
 ### Colliders
+
+```c#
 BoxCollider2D
 CircleCollider2D
 PolygonCollider2D
+```
 
 ### Floors, walls, and other motionless elements
 Add a collider to an object, but don't add a Rigidbody component.
