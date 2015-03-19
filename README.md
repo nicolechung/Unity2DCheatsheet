@@ -33,9 +33,41 @@ If you mess with the Scene Gizmo and can't get back to your original camera posi
 ###Update()
 Called once per frame.
 
-###FixedUpdate
+###FixedUpdate()
 Called multiple times per frame.
 Should be used when applying forces or other physics related functions.
+
+##Input
+
+### Conventional
+
+```
+Input.GetAxis("Horizontal")
+Input.GetAxis("Vertical")
+```
+
+### Mobile
+
+Mobile uses an Input.Touch data structure.
+
+Useful properties include ```position``` and ```deltaPosition``` (change in position since the last frame).
+
+
+```
+var particle : GameObject;
+function Update () {
+    for (var touch : Touch in Input.touches) {
+        if (touch.phase == TouchPhase.Began) {
+            // Construct a ray from the current touch coordinates
+            var ray = Camera.main.ScreenPointToRay (touch.position);
+            if (Physics.Raycast (ray)) {
+                // Create a particle if hit
+                Instantiate (particle, transform.position, transform.rotation);
+            }
+        }
+    }
+}
+```
 
 ## Useful Math Functions
 Mathf.Max
