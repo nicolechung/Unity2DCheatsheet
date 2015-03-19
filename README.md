@@ -4,9 +4,9 @@ A cheatsheet for Unity's 2D features.
 ## Physics 
 
 ### Rigidbodies
-To make a GameObject under the control of the physics engine, add a ```Rigidbody```component.
+To make a GameObject under the control of the physics engine, add a ```Rigidbody2D```component.
 
-With ```Rigidbodies``` do not attempt to move them by Transform properties (rotation, scale, position). Instead apply forces.
+With ```Rigidbodies2D``` do not attempt to move them by Transform properties (rotation, scale, position). Instead apply forces.
 
 ### Colliders
 
