@@ -138,5 +138,10 @@ However this feature is hard to find (there's no View > grid > snap to grid or a
 
 Snapping items together is called ```vertex snapping```.
 
+```
+V + click + drag
+```
+
+
 
 
