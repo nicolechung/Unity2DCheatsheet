@@ -52,14 +52,6 @@ Destroy (myObject);
 Instantiate(gameObject, position, Quaternion.identity)A as GameObject;
 ```
 
-## Controlling the camera
-For 2D, don’t mess with the Scene Gizmo. In Unity 5 the gizmo isn't even available when viewing in "2D" mode:
-
-![Scene Gizmo](images/scene-gizmo.png)
-``` don't mess with this guy ```
-
-If you mess with the Scene Gizmo and can't get back to your original camera position, close the Scene Tab and Reopen it.
-
 ## GameObject Events
 
 ###Update()
@@ -119,5 +111,32 @@ Mathf.PingPong
 
 ##  Vector Variables
 
+```C#
+Vector2D.one
+Vector2D.right
+Vector2D.up
+Vector2D.zero
+```
+
 ## Timing Variables
+
+-------
+
+## Controlling the camera
+For 2D, don’t mess with the Scene Gizmo. In Unity 5 the gizmo isn't even available when viewing in "2D" mode:
+
+![Scene Gizmo](images/scene-gizmo.png)
+``` don't mess with this guy ```
+
+If you mess with the Scene Gizmo and can't get back to your original camera position, close the Scene Tab and Reopen it.
+
+## Vertex snapping
+
+When you are building tiles for your game, its easier if they just "snap" together.
+
+However this feature is hard to find (there's no View > grid > snap to grid or anything Photoshop-like).
+
+Snapping items together is called ```vertex snapping```.
+
+
 
