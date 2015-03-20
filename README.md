@@ -120,6 +120,13 @@ Vector2D.zero
 
 ## Timing Variables
 
+```C#
+Time.deltaTime
+Time.fixedTime
+Time.time
+Time.timeScale
+```
+
 -------
 
 ## Controlling the camera
