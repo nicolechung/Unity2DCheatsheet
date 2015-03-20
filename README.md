@@ -10,7 +10,7 @@ With ```Rigidbodies2D``` do not attempt to move them by ```Transform``` properti
 
 ### Colliders
 
-```c#
+```C#
 BoxCollider2D
 CircleCollider2D
 PolygonCollider2D
@@ -19,6 +19,38 @@ PolygonCollider2D
 ### Floors, walls, and other motionless elements
 Add a collider to an object, but don't add a Rigidbody component.
 
+### Collisions
+
+```C#
+OnCollisionEnter2D
+OnCollisionExit2D
+OnCollisionStay2D
+
+```
+
+
+### Triggers
+
+```C#
+OnTriggerEnter2D
+OnTriggerExit2D
+OnTriggerStay2D
+
+```
+
+### Destroy
+
+Removes a game object, component or asset
+
+```C#
+Destroy (myObject);
+```
+
+### Spawn (instantiate)
+
+```C#
+Instantiate(gameObject, position, Quaternion.identity)A as GameObject;
+```
 
 ## Controlling the camera
 For 2D, don’t mess with the Scene Gizmo. In Unity 5 the gizmo isn't even available when viewing in "2D" mode:
@@ -36,6 +68,13 @@ Called once per frame.
 ###FixedUpdate()
 Called multiple times per frame.
 Should be used when applying forces or other physics related functions.
+
+### LastUpdate()
+Called  once  per frame after Update()  has finished. 
+Good  for camera  movement.
+
+#### How to crash unity: Use a ```loop``` (for, while) inside of Update(), FixedUpdate(), or LastUpdate().
+
 
 ##Input
 
