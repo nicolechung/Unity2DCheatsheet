@@ -108,6 +108,11 @@ Mathf.Min
 ###Mathf.Clamp
 Useful for forcing a player to say within a certain "bounds".
 
+```C#
+var pos = transform.position;
+pos.x =  Mathf.Clamp(transform.position.x, -2.0f, 2.0f);
+```    
+
 Mathf.PingPong
 
 ##  Vector Variables
