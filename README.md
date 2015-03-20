@@ -105,7 +105,8 @@ Mathf.Max
 
 Mathf.Min
 
-Mathf.Clamp
+###Mathf.Clamp
+Useful for forcing a player to say within a certain "bounds".
 
 Mathf.PingPong
 
@@ -135,7 +136,7 @@ For 2D, don’t mess with the Scene Gizmo. In Unity 5 the gizmo isn't even avail
 ![Scene Gizmo](images/scene-gizmo.png)
 ``` don't mess with this guy ```
 
-If you mess with the Scene Gizmo and can't get back to your original camera position, close the Scene Tab and Reopen it.
+If you mess with the Scene Gizmo and can't get back to your original camera position, close the ```Scene Tab``` and then reopen it.
 
 ## Vertex snapping
 
