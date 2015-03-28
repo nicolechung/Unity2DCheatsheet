@@ -157,7 +157,7 @@ Drag the new Animator Controller to your "Controller" box in the "Animator Compo
 
 View your Animation window. ```Window > Animation```.
 
-![Setting up an Animator and an Animator Controller](images/animator-animation-controller.png)
+![Setting up an Animator and an Animator Controller](images/animator-animator-controller.png)
 
 Make sure you the character you want to set up animations for, and then ```Create > New Clip```.
 
