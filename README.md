@@ -3,6 +3,14 @@ A cheatsheet for Unity's 2D features. It's based on [this cheat sheet](http://cd
 
 [Animation](animation.md)
 
+## Non-physics movement
+
+```
+Transform.position = Vector2.Lerp(...)
+Transform.translate
+
+```
+
 ## Physics 
 
 ### Rigidbodies
