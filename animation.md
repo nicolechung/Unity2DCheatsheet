@@ -14,7 +14,7 @@ View your Animation window. ```Window > Animation```.
 
 ![Setting up an Animator and an Animator Controller](images/animator-animator-controller.png)
 
-Make sure you the character you want to set up animations for, and then ```Create > New Clip```.
+Make sure **you have selected** the character you want to set up animations for, and then ```Create > New Clip```.
 
 ![Creating a new clip](images/create-new-clip.png)
 

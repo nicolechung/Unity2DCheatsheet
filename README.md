@@ -158,6 +158,17 @@ Snapping items together is called ```vertex snapping```.
 V + click + drag
 ```
 
+## Renaming a project
+Quit Unity.
+
+Rename the folder that contains the Unity project. 
+
+Restart Unity.
+
+Click ```Open Other``` and choose the folder you just renamed.
+
+
+
 
 
 
