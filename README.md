@@ -1,6 +1,8 @@
 # Unity2DCheatsheet
 A cheatsheet for Unity's 2D features. It's based on [this cheat sheet](http://cdn1.raywenderlich.com/wp-content/uploads/2014/11/UnityCheatsheet-0_1.pdf) but I've modified it for 2D.
 
+[Animation](animation.md)
+
 ## Physics 
 
 ### Rigidbodies
@@ -143,31 +145,6 @@ For 2D, don’t mess with the Scene Gizmo. In Unity 5 the gizmo isn't even avail
 
 If you mess with the Scene Gizmo and can't get back to your original camera position, close the ```Scene Tab``` and then reopen it.
 
-## Animation set up
-
-### Method One
-Select a Sprite Animation (Shift + click to select all the frames) from your project folder and drag it to your Game Object. You will be prompted to name your animation. This will automatically set up an Animator component, with an animator controller, and the animation you just created.
-
-### Method Two
-To your character game object, add an Animator Component.
-
-Then ```Create > Animator Controller```.
-
-Drag the new Animator Controller to your "Controller" box in the "Animator Component".
-
-View your Animation window. ```Window > Animation```.
-
-![Setting up an Animator and an Animator Controller](images/animator-animator-controller.png)
-
-Make sure you the character you want to set up animations for, and then ```Create > New Clip```.
-
-![Creating a new clip](images/create-new-clip.png)
-
-Name the new animation.
-
-Then drag your animation to the timeline.
-
-Create another animation with the same process.
 
 ## Vertex snapping
 
