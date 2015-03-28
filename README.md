@@ -8,7 +8,6 @@ A cheatsheet for Unity's 2D features. It's based on [this cheat sheet](http://cd
 ```
 Transform.position = Vector2.Lerp(...)
 Transform.translate
-
 ```
 
 ## Physics 

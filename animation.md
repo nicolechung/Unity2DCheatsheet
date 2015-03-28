@@ -1,5 +1,7 @@
 ## Animation set up
 
+![How the Animation Components fit together](images/animations.png)
+
 ### Method One
 Create an empty game object.
 
