@@ -175,8 +175,10 @@ However this feature is hard to find (there's no View > grid > snap to grid or a
 Snapping items together is called ```vertex snapping```.
 
 ```
-V + click + drag
+Hold down v + move the mouse
 ```
+
+Holding down "v" while moving the mouse will make the pointer snap from "point" to "point". Once you have selected the point you want things to snap to, click and drag your object so it "snaps" beside the object you want to place it near.
 
 ## Renaming a project
 Quit Unity.
