@@ -1,7 +1,18 @@
 ## Animation set up
 
 ### Method One
-Select a Sprite Animation (Shift + click to select all the frames) from your project folder and drag it to your Game Object. You will be prompted to name your animation. This will automatically set up an Animator component, with an animator controller, and the animation you just created.
+Create an empty game object.
+
+Select a Sprite Animation (```Shift + click``` to select all the frames) from your project folder and drag it to your game object. 
+
+Name your animation.
+
+This will automatically create the following:
+- A Sprite Renderer
+- An Animator 
+- An Animation Controller (inside of the Animator)
+- An Animation
+
 
 ### Method Two
 To your character game object, add an Animator Component.
