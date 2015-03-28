@@ -7,7 +7,7 @@ A cheatsheet for Unity's 2D features. It's based on [this cheat sheet](http://cd
 
 ```
 Transform.position = Vector2.Lerp(...)
-Transform.translate
+Transform.translate(X, Y, Z)
 ```
 
 ## Physics 
@@ -16,6 +16,19 @@ Transform.translate
 To make a GameObject under the control of the physics engine, add a ```Rigidbody2D```component.
 
 With ```Rigidbodies2D``` do not attempt to move them by ```Transform``` properties (rotation, scale, position). Instead apply forces.
+
+```
+rigidBody = GetComponent<RigidBody2D>();
+rigidBody.AddForce(force...);
+
+```
+
+or
+
+```
+rigidBody = GetComponent<RigidBody2D>();
+rigidBody.velocity = new Vector2( x , y );
+```
 
 ### Colliders
 
