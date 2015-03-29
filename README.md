@@ -32,6 +32,7 @@ rigidBody.velocity = new Vector2( x , y );
 
 ### Colliders
 
+
 ```C#
 BoxCollider2D
 CircleCollider2D
@@ -41,7 +42,16 @@ PolygonCollider2D
 ### Floors, walls, and other motionless elements
 Add a collider to an object, but don't add a Rigidbody component.
 
-### Collisions
+### Collisions and Triggers
+
+Normally colliders **collide** with other colliders, which means they apply force to each other.
+
+Triggers do not apply forces. They are good to use when you want a character to move over an area (a "trigger") without boucing off of it or being blocked by it.
+
+To make something a trigger in the Editor, check the "isTrigger" checkbox.
+
+![the isTrigger checkbox](images/is-trigger.png)
+
 
 ```C#
 OnCollisionEnter2D
