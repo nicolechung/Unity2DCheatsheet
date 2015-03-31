@@ -30,6 +30,13 @@ rigidBody = GetComponent<RigidBody2D>();
 rigidBody.velocity = new Vector2( x , y );
 ```
 
+or
+
+```
+rigidBody = GetComponent<RigidBody2D>();
+rigidBody.MovePosition(toNewPosition);
+```
+
 ### Colliders
 
 
@@ -146,6 +153,11 @@ pos.x =  Mathf.Clamp(transform.position.x, -2.0f, 2.0f);
 ```    
 
 Mathf.PingPong
+
+## Rotation
+
+### Quarternion.identity
+This is just another word for "no rotation".
 
 ##  Vector Variables
 
